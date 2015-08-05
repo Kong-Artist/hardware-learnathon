@@ -42,3 +42,7 @@ No drivers needed! Just plug and play.
 # Arduino IDE
 
 Please download & install the Arduino IDE from [the official site](https://www.arduino.cc/en/Main/Software). This is a program that we will be using during the day of the event to program our circuit!
+
+# Questions?
+
+Please message Yu Chen at me@yuchen.io or on Slack if you are stuck somewhere!
