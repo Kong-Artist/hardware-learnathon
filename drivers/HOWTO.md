@@ -41,7 +41,14 @@ No drivers needed! Just plug and play.
 
 # Arduino IDE
 
-Please download & install the Arduino IDE from [the official site](https://www.arduino.cc/en/Main/Software). This is a program that we will be using during the day of the event to program our circuit!
+**Windows/Mac:**
+
+Please download & install the Arduino IDE from [the official site](https://www.arduino.cc/en/Main/Software). This is the program that we will be using during the day of the event to program our circuit!
+
+**Linux (Debian derivatives):**
+
+Enter `sudo apt-get update && sudo apt-get install arduino arduino-core` in a terminal.
+<br>*For other distros, see http://playground.arduino.cc/Learning/Linux*
 
 # Questions?
 
