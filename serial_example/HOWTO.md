@@ -1,18 +1,20 @@
 #Serial Communication Example
 
+Normally when we use `Serial.print()`, we open the Arduino IDE's built in Serial Monitor and read the output 
+strings. However, you can easily write your own computer program that can reads this serial output and act on it.
+This isn't so much a single project as a starting point for your own - it includes a useful library and an
+example of interfacing with your Arduino in a more versatile way.
+
+*This is a somewhat more advanced topic and assumes some previous programming knowledge. We encourage you 
+to give this a read regardless, and if you don't want to use C++ or get stuck along the way, just let 
+a Mentor know!*
+
 ##What We Need
 * Arduino UNO & USB Cable
 * serialib serial communication library for C++
 * C++ compiler (check out gcc for Linux or mingw for Windows)
 
 ##How To Use It
-
-Normally when we use `Serial.print()`, we open the Arduino IDE's built in Serial Monitor and read the output 
-strings. However, you can easily write your own computer program that can reads this serial output and act on it.
-This isn't so much a single project as a starting point for your own - it includes a library and an
-example of interfacing with your Arduino in a more versatile way. *This is a somewhat more advanced concept and 
-assumes you have at least some prior programming knowledge. If not, we still encourage you to check it out,
-just let a Mentor know if you get stuck!*
 
 Start by downloading our zip file, which contains the serialib library and an example file `Print.cpp`, confirmed
 to work on Windows and Linux. To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
@@ -25,9 +27,10 @@ ctrl+c in the console window). Although it has a bit of flicker (this isn't real
 best way to implement animation), it shows how you can do some pretty fancy stuff!
 
 This is the part where you come in - you now have the power to make your C++ applications interface with the
-real world through your Arduino, let your imagination run free! You should be able to write to the Arduino as well.
-If you're not comfortable writing C++ or you can't get the library to work on your computer, let one of the Mentors 
-know - we'd be happy to help you get set up with a different serial communication library.
+real world through your Arduino, so let your imagination run free! You should be able to use serialib to write 
+to the Arduino as well (see libserial's `Example1.cpp`). If you're not comfortable writing C++ or you can't 
+get the library to work on your computer, let one of the Mentors know - we'll be happy to help you get set 
+up with a different serial communication library.
 
 Some project ideas:
 * Classic pong with potentiometer knob inputs
