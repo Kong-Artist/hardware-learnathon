@@ -17,7 +17,8 @@ a Mentor know!*
 ##How To Use It
 
 Start by downloading our zip file, which contains the serialib library and an example file `Print.cpp`, confirmed
-to work on Windows and Linux. To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
+to work on Windows and Linux. You might need to change the port - see the Troubleshooting section.
+To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
 `g++ serialib.cpp Print.cpp -o Print.exe`. If you're interested, quickly read through `Print.cpp` - you'll see that 
 it's rather straightforward. A serial port is opened and its output is read & printed to screen, one line at a time.
 
@@ -42,9 +43,9 @@ software stream and connect it to the Internet
 
 | Symptom          | Solution |
 | --------         |--------- |
-| Problem uploading to board. | Make sure you didn't leave a program running that's using the USB port. |
+| "Problem uploading to board." | Make sure you didn't leave a program running that's using the USB port. |
 | g++ not found | Do you have a C++ compiler installed? See above. |
-| Print.cpp unable to connect to port | It's possible that your Arduino is using a differently named port than usual; let a Mentor know. |
+| Print.exe unable to connect to port | It's possible that your Arduino is using a differently named port than usual. Try changing the value of DEVICE_PORT near the top of the Print.cpp to whatever's being used by your Arduino IDE (under Tools > SerialPort) |
 | Something else | Yell for help! |
 
 ##How It Works
