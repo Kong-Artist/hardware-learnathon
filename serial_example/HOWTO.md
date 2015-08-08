@@ -16,7 +16,9 @@ a Mentor know!*
 
 ##How To Use It
 
-Start by downloading our zip file, which contains the serialib library and an example file `SerialPrint.cpp` 
+Start by 
+[downloading our zip file](serial_example_code.zip),
+which contains the serialib library and an example file `SerialPrint.cpp` 
 (confirmed to work on Windows and Linux).You might need to change the port - see the Troubleshooting section.
 To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
 `g++ serialib.cpp SerialPrint.cpp -o SerialPrint.exe`. You might see some strange warnings, you can probably ignore
