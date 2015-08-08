@@ -25,6 +25,7 @@ A [theremin](https://youtu.be/w5qf9O6c20o?t=13s) is an electronic musical instru
 A **photoresistor** is a special kind of *variable resistor* - the more light there is shining on it, the lower its resistance value is. By covering the photoresistor with your hand, you decrease the amount of light shining on it; the closer your hand, the less light it receives (try to get your shadow to fall on it).
 
 1. Build the simple circuit shown in the diagram, making sure to plug the *Analog 0* input pin into the same row of the breadboard connecting the resistor and photoresistor.
+<br><img src="https://cloud.githubusercontent.com/assets/3172103/9149063/ffd76702-3d63-11e5-8d6a-c6991a9d9cf7.png" width="400px">&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9149062/ffd68986-3d63-11e5-84c6-df7e8d98d21c.png" width="400px">
 
 2. We’re going to write code that reads the sensor value on pin A0 and outputs it to console. Remember to include a small delay to give your sensor time to get a new reading. Give it a shot if you feel comfortable, and then check out our code in `light_theremin_photoresistor.ino`
 
@@ -35,6 +36,7 @@ A **photoresistor** is a special kind of *variable resistor* - the more light th
 Next, we’re going to connect and test out the Piezo speaker.
 
 1. Connect the speaker a little further down the breadboard, one end to ground and the other to pin 4 (or whichever your favourite may be).
+<br><img src="https://cloud.githubusercontent.com/assets/3172103/9149060/ffd35446-3d63-11e5-9f50-5de922654e4f.png" width="400px">&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9149061/ffd53fea-3d63-11e5-9942-d2799b83fa62.png" width="400px">
 
 2. We’re going to use Arduino’s `tone()` function to play a sound on pin 4. Write code that calls either `tone(pin, frequency)` or `tone(pin, frequency, duration)` and experiment with different frequency values.
 
