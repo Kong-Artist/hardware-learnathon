@@ -19,7 +19,8 @@ a Mentor know!*
 Start by downloading our zip file, which contains the serialib library and an example file `Print.cpp`, confirmed
 to work on Windows and Linux. You might need to change the port - see the Troubleshooting section.
 To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
-`g++ serialib.cpp Print.cpp -o Print.exe`. If you're interested, quickly read through `Print.cpp` - you'll see that 
+`g++ serialib.cpp Print.cpp -o Print.exe`. You might see some strange warnings, you can probably ignore them. 
+If you're interested, quickly read through `Print.cpp` - you'll see that 
 it's rather straightforward. A serial port is opened and its output is read & printed to screen, one line at a time.
 
 Take a look at our `serial_example.ino` sketch - it displays an animation of a circle moving back and forth,
