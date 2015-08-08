@@ -1,7 +1,7 @@
 #Serial Communication Example
 
 Normally when we use `Serial.print()`, we open the Arduino IDE's built in Serial Monitor and read the output 
-strings. However, you can easily write your own computer program that can reads this serial output and act on it.
+strings. However, you can easily write your own computer program that can read this serial output and act on it.
 This isn't so much a single project as a starting point for your own - it includes a useful library and an
 example of interfacing with your Arduino in a more versatile way.
 
