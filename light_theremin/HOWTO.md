@@ -27,7 +27,7 @@ A **photoresistor** is a special kind of *variable resistor* - the more light th
 1. Build the simple circuit shown in the diagram, making sure to plug the *Analog 0* input pin into the same row of the breadboard connecting the resistor and photoresistor.
 <br><img src="https://cloud.githubusercontent.com/assets/3172103/9149063/ffd76702-3d63-11e5-8d6a-c6991a9d9cf7.png" width="400px">&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9149062/ffd68986-3d63-11e5-84c6-df7e8d98d21c.png" width="400px">
 
-2. We’re going to write code that reads the sensor value on pin A0 and outputs it to console. Remember to include a small delay to give your sensor time to get a new reading. Give it a shot if you feel comfortable, and then check out our code in `photoresistor.ino`
+2. We’re going to write code that reads the analog sensor value on pin A0 and outputs it to console. Remember to include a small delay to give your sensor time to get a new reading. Give it a shot if you feel comfortable, and then check out our code in `photoresistor.ino`
 
 3. You’ll notice that our code contains two constants at the top for upper and lower input values (go ahead and add these to your own code if you’d rather use that). Look at the range sensor values that your Arduino prints, and try to pick values just within this range. For example, our value maxed out at around 570 when uncovered and dropped to 290 when covered fully, so we set our upper and lower values to 550 and 300. Your values will probably be different from your neighbour’s, depending on your photoresistor and where in the room you’re sitting. You’ll use the values later.
 
