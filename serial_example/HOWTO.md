@@ -17,7 +17,7 @@ a Mentor know!*
 ##How To Use It
 
 Start by 
-[downloading our zip file](serial_example_code.zip),
+[downloading our zip file](https://github.com/TechRetreat/hardware-learnathon/raw/master/serial_example/serial_example_code.zip),
 which contains the serialib library and an example file `SerialPrint.cpp` 
 (confirmed to work on Windows and Linux).You might need to change the port - see the Troubleshooting section.
 To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
