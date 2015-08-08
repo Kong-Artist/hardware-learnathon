@@ -14,7 +14,11 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(frequency);
-  tone(speakerPin, frequency, 500);
+  /*
+  * The frequency doesn't change in this example - try implementing a counter 
+  * or loop to help find your upper/lower values!
+  */
+  Serial.println(frequency);  
+  tone(speakerPin, frequency, 500); // outputs the given frequency on your speaker pin for 500ms
   delay(2000);
 }
