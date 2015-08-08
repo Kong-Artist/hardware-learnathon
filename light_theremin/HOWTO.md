@@ -38,7 +38,7 @@ Next, we’re going to connect and test out the Piezo speaker.
 1. Connect the speaker a little further down the breadboard, one end to ground and the other to pin 4 (or whichever your favourite may be).
 <br><img src="https://cloud.githubusercontent.com/assets/3172103/9149060/ffd35446-3d63-11e5-9f50-5de922654e4f.png" width="400px">&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9149061/ffd53fea-3d63-11e5-9942-d2799b83fa62.png" width="400px">
 
-2. We’re going to use Arduino’s `tone()` function to play a sound on pin 4. Write code that calls either `tone(pin, frequency)` or `tone(pin, frequency, duration)` and experiment with different frequency values.
+2. We’re going to use Arduino’s `tone()` function to play a sound on pin 4. Create a new sketch and write code that calls either `tone(pin, frequency)` or `tone(pin, frequency, duration)` and experiment with different frequency values.
 
 3. Check out our code in `speaker.ino` and, again, notice the upper and lower frequency constants at the top. Copy these values into your code and set them to the highest frequency that doesn’t hurt your ears (or ours!!) and the lowest frequency that doesn’t sound too buzzy.
 
