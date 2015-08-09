@@ -26,4 +26,4 @@
 
 1. Temperature Sensors
 2. Hall Effect Sensors
-3. Ball Tilt
+3. Ball Tilt/Accelerometer
