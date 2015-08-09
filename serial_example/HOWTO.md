@@ -32,7 +32,8 @@ animation), it shows how you can do some pretty fancy stuff!
 
 This is the part where you come in - you now have the power to make your C++ applications interface with the
 real world through your Arduino, so let your imagination run free! You should be able to write 
-to the Arduino as well (see serialib's `Example1.cpp`). If you're not comfortable writing C++ or you can't 
+to the Arduino as well (see serialib's `Example1.cpp` and the Arduino example sketch under 
+04.Communication > SerialEvent). If you're not comfortable writing C++ or you can't 
 get the library to work on your computer, let one of the Mentors know - we'll be happy to help you get set 
 up with a different serial communication library.
 
