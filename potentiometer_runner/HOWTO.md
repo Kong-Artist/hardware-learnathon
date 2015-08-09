@@ -2,9 +2,9 @@
 
 Long before touchscreens, motion detection, and voice commands, many pieces of computer and electronics 
 equipment used knobs for precise user input. How exactly do you read the position of a knob? Use a 
-[potentiometer](https://www.arduino.cc/en/Tutorial/Potentiometer), of course! It's a round device with 
+[potentiometer](https://www.arduino.cc/en/Tutorial/Potentiometer), of course! It's a small metal component with 
 three pins and a twistable shaft. This simple project shows you how to use the potentiometer by building
-a simple interactive animation.
+a simple interactive 'runner' animation.
 
 ##What We Need
 
@@ -21,9 +21,11 @@ a simple interactive animation.
 ##How To Make It
 
 1. This circuit is very straightforward - just connect the three pins of the potentiometer to the
-Arduino as shown in the diagram. *Make sure +5 and ground are connected to the outer pins!*
-<br><img src="https://cloud.githubusercontent.com/assets/3172103/9149063/ffd76702-3d63-11e5-8d6a-c6991a9d9cf7.png" width="400px">
-&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9149062/ffd68986-3d63-11e5-84c6-df7e8d98d21c.png" width="400px">
+Arduino like in the diagram. If you're using a breadboard, you might have to bend the metal bracket underneath 
+the potentiometer to get it into the holes. Otherwise, just insert the wires into the legs and tape them on, 
+making sure they don't touch.
+<br><img src="https://cloud.githubusercontent.com/assets/3172103/9155886/a2e0d0be-3e95-11e5-9e4b-9eb8482deeff.png" width="400px">
+&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9155883/7f28309a-3e95-11e5-857a-748bf3658fdc.png" width="400px">
 
 2. Start by opening the AnalogReadSerial example sketch (Open > 01.Basics), which reads an analog input on
 pin A0 and outputs it to console. See how twisting the potentiometer changes the value - at one extreme it should
@@ -32,8 +34,10 @@ drop to 0, and at the other it should hit the max value of 1023.
 3. The goal of this project is to translate the input from the potentiometer into a column position on screen
 (remember the `map()` function??). Delete the `Serial.println()` call in the example and 
 make the program continuously print a line containing a single character at the
-column position you calculate from the sensor value. It should look something like this:
-<br><img src="https://cloud.githubusercontent.com/assets/3172103/9149063/ffd76702-3d63-11e5-8d6a-c6991a9d9cf7.png" height="400px"><br>
+column position you calculate from the sensor value. Give it a shot, and then 
+check out our code at [`potentiometer_runner.inx](potentiometer_runner.ino) to see how we did it! 
+It should look something like this:
+<br><img src="https://cloud.githubusercontent.com/assets/3172103/9155900/14d2374e-3e96-11e5-8933-973a3d51eac3.png" height="300px"><br>
 *You might want to use a baud rate higher than 9600 for faster writing to console, and a slightly higher delay
 than before for less flickery animation.*
 
