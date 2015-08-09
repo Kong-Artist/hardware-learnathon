@@ -26,5 +26,6 @@
 
 1. ~12x Hall Effect Sensors
 2. 10k resistors
+3. 1x [Arduino LCD Shield](https://www.dipmicro.com/store/SHIELD-LCDKEY-G)
 3. Ball Tilt/Accelerometer
 
