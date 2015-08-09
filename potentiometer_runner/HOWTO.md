@@ -35,7 +35,7 @@ drop to 0, and at the other it should hit the max value of 1023.
 (remember the `map()` function??). Delete the `Serial.println()` call in the example and 
 make the program continuously print a line containing a single character at the
 column position you calculate from the sensor value. Give it a shot, and then 
-check out our code at [`potentiometer_runner.ino](potentiometer_runner.ino) to see how we did it! 
+check out our code at [`potentiometer_runner.ino`](potentiometer_runner.ino) to see how we did it! 
 It should look something like this:
 <br><img src="https://cloud.githubusercontent.com/assets/3172103/9155900/14d2374e-3e96-11e5-8933-973a3d51eac3.png" height="300px"><br>
 *You might want to use a baud rate higher than 9600 for faster writing to console, and a slightly higher delay
