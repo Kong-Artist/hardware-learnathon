@@ -25,6 +25,6 @@
 (Wishlist)
 
 1. ~12x Hall Effect Sensors
-2. Ball Tilt/Accelerometer
-3. 10k resistors
-4. 
+2. 10k resistors
+3. Ball Tilt/Accelerometer
+
