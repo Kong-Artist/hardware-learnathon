@@ -9,8 +9,8 @@ shows how to turn a small sheet of aluminum foil into a touch sensor using the C
 [`importing_libraries.md`](../importing_libraries.md) to import it into Arduino.
 
 2. Build a circuit like the one shown below. You can use tape and/or a paper clip to attach the wire to a piece of aluminum foil (or any metal object, for that matter).
-<br><img src="https://cloud.githubusercontent.com/assets/3172103/9149060/ffd35446-3d63-11e5-9f50-5de922654e4f.png" width="400px">
-&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9149061/ffd53fea-3d63-11e5-9942-d2799b83fa62.png" width="400px">
+<br><img src="https://cloud.githubusercontent.com/assets/3172103/9158476/78f6bb56-3ee5-11e5-9c50-2f5b7d00382c.png" width="400px">
+&nbsp;<img src="https://cloud.githubusercontent.com/assets/3172103/9158477/78f7297e-3ee5-11e5-9c72-772a66fcb2c6.png" width="400px">
 
 3. Check out the simple example program [`touch_sensor.ino`](touch_sensor.ino), which shows how to use the touch sensor to turn on an LED.
 
@@ -20,6 +20,6 @@ make good use of them.
 
 ##How It Works
 
-Capacitive touch sensors take advantage of the human body's natural capacitance. It's fairly complicated -
-if you're interested, take a look at 
+Capacitive touch sensors take advantage of the human body's natural capacitance. Details are
+outside the scope of this tutorial - if you're interested, take a look at 
 [this explanation.](http://www.pcbheaven.com/wikipages/How_a_Touch_Button_works/?p=1)
