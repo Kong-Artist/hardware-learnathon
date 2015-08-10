@@ -24,8 +24,7 @@
 
 (Wishlist)
 
-1. ~12x Hall Effect Sensors
-2. 10k resistors
+1. ~12x [Hall Effect Sensors](http://www.dipmicro.com/store/A3144E)
+2. 50x [10k resistors] (https://www.dipmicro.com/store/R4F10-4)
 3. 1x [Arduino LCD Shield](https://www.dipmicro.com/store/SHIELD-LCDKEY-G)
-3. Ball Tilt/Accelerometer
 
