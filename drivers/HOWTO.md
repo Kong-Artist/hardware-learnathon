@@ -48,6 +48,7 @@ Please download & install the Arduino IDE from [the official site](https://www.a
 **Linux (Debian derivatives):**
 
 Enter `sudo apt-get update && sudo apt-get install arduino arduino-core` in a terminal.
+To run Arduino IDE, you have to run it as root: `sudo arduino`
 <br>*For other distros, see http://playground.arduino.cc/Learning/Linux*
 
 # Questions?
