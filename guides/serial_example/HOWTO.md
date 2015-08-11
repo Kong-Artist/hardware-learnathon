@@ -12,9 +12,32 @@ a Mentor know!*
 ##What We Need
 * Arduino UNO & USB Cable
 * serialib serial communication library for C++
-* C++ compiler (check out gcc for Linux or mingw for Windows)
+* C++ compiler
 
 ##How To Use It
+
+####Downloading a C++ Compiler
+
+######Windows
+
+1. Download the [mingw installer](http://sourceforge.net/projects/mingw/files/latest/download?source=files)
+and run it. 
+
+2. You will want to install base and g++ at a minimum. Click on the checkbox and "Mark for Installation".
+Then, click "Installation > Apply Changes > Apply".
+
+3. You will need to add `;C:\MinGW` to the end of your PATH 
+[environment variable](http://www.computerhope.com/issues/ch000549.htm).
+
+######Linux (Debian derivatives)
+1. Enter `sudo apt-get install gcc g++`
+
+2. Laugh at all the Windows users who are still struggling with installing mingw.
+
+*If you don't know C++ and would much rather not work with it, ask one of the Mentors for help setting up
+a serial library in another language.*
+
+####Setting Up Communication
 
 Start by 
 [downloading our zip file](https://github.com/TechRetreat/hardware-learnathon/raw/master/serial_example/serial_example_code.zip),
@@ -22,8 +45,13 @@ which contains the serialib library and an example file `SerialPrint.cpp`
 (confirmed to work on Windows and Linux).You might need to change the port - see the Troubleshooting section.
 To compile the files and output an executable, open a terminal window, navigate to the directory, and enter 
 `g++ serialib.cpp SerialPrint.cpp -o SerialPrint.exe`. You might see some strange warnings, you can probably ignore
-them. If you're interested, quickly read through `SerialPrint.cpp` - you'll see that it's rather straightforward.
-A serial port is opened and its output is read & printed to screen, one line at a time.
+them. Now, run the executable from the terminal by entering `SerialPrint.exe` (`./SerialPrint.exe` in Linux).
+
+If you're interested, quickly read through `SerialPrint.cpp` - you'll see that it's rather straightforward.
+A serial port is opened and its output is read & printed directly to console, one line at a time.
+If you're on Windows, some of the line breaks may not show up in notepad. Try using a different text
+editor, like [Sublime Text](http://www.sublimetext.com/) or 
+[Notepad++](https://notepad-plus-plus.org/download/v6.8.1.html).
 
 Take a look at our `serial_example.ino` sketch - it displays an animation of an "o" moving back and forth,
 and includes a command that clears the console screen. Make sure to stop `SerialPrint.exe` before uploading (hit
